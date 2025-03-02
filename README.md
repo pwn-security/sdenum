@@ -3,6 +3,7 @@ A subdomain enumeration tool for OSINT enthusiasts
 
 ### Current Feature
 * crt.sh search ✅
+* [Google Dorks](https://exploit-db.com/google-hacking-database) ✅
 
 ### Setup Guide (RECOMMENDED): [LINUX USERS]
 Install python3 and pip: **Google it**
@@ -26,7 +27,6 @@ Install dependencies:`pip install -r requirements.txt`
 
 ### Future Improvements
 1. Additional strategies for subdomain enumeration
-* [Google Dorks](https://exploit-db.com/google-hacking-database)
-* Brute-force
-* DNS Scraping
+    * Brute-force
+    * DNS Scraping
 2. Support for multi-threading
