@@ -41,8 +41,7 @@ def main():
         
         if verboseLevel > 0:
             print(f"Found {len(common_names)} subdomains in {domain}")
-        if verboseLevel > 1:
-            print(f"Subdomains: {common_names}")
+        print(f"Subdomains: {common_names}")
     else:
         print("No certificates found or an error occurred.")
 
